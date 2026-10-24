@@ -112,7 +112,7 @@ function App() {
       console.log("=================================");
 
       const response = await fetch(
-        "http://localhost:5000/upload",
+        "https://mediclarity.onrender.com/upload",
         {
           method: "POST",
           body: formData,
